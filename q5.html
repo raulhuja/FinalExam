@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Example</title>
 </head>
 <body>
     <main>
-        <h3>Responsive Image</h3>
+        <h1>Responsive Image</h1>
         <figure>
             <picture>
-                <source srcset="readmeimages/400x600.png"
-                    media="(orientation: portrait)">
-                <img src="readmeimages/728x200.png" />
+                <source srcset="readmeimages/400x600.png" media="(orientation: portrait)">
+                <img src="readmeimages/728x200.png" 
+                     alt="A placeholder image that adapts to the device orientation, showcasing responsiveness" 
+                     style="max-width: 100%; height: auto;" />
             </picture>
-            <figcaption>responsive placeholder image</figcaption>
+            <figcaption>Responsive placeholder image that adapts to portrait and landscape orientations.</figcaption>
         </figure>
     </main>
 </body>
